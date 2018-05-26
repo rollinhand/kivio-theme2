@@ -1,0 +1,110 @@
+/* Reset some default styles */
+@import url(https://fonts.googleapis.com/css?family=Muli:300,400);
+ul {
+  list-style-type: none; }
+
+.light {
+  background-color: #ffffff;
+  color: #666666; }
+
+.dark {
+  background-color: #000000 !important;
+  color: #ffffff; }
+
+.grey {
+  background-color: #666666;
+  color: #000000; }
+
+.light-grey {
+  background-color: #DDDDDD;
+  color: #000000; }
+
+.blue {
+  background-color: #005490;
+  color: #ffffff; }
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 12pt;
+  font-family: "Muli", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff; }
+
+.label {
+  background-color: #005490;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+
+.indent {
+  margin: 0 5%;
+  background-color: #ffffff; }
+
+.navbar > li {
+  float: left;
+  padding: 5px 10px; }
+  .navbar > li > a {
+    font-size: 1.0em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none; }
+    .navbar > li > a:hover {
+      color: #005490; }
+  .navbar > li.active {
+    background-color: #005490;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%; }
+
+.heading {
+  padding: 0px;
+  min-height: 70px;
+  overflow: hidden; }
+  .heading .logo {
+    padding: 15px 10px;
+    float: left; }
+  .heading .navigation .main-navigation {
+    float: right; }
+  .heading:after {
+    clear: both;
+    display: block; }
+
+.main .content {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 100%;
+  width: calc((480px - 100%) * 480);
+  text-align: justify;
+  min-width: 67%;
+  padding: 20px 30px 10px 0px;
+  vertical-align: top; }
+  .main .content .intro {
+    display: inline-block; }
+    .main .content .intro h2 > a {
+      color: #005490;
+      font-weight: bold;
+      text-decoration: none; }
+.main .sidebar {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 100%;
+  width: calc((480px - 100%) * 480);
+  min-width: 25%;
+  padding: 20px 0px 10px 30px; }
+.main:after {
+  clear: both;
+  display: block;
+  display: block; }
+
+.footer footer {
+  padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

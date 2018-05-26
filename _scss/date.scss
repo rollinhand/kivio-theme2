@@ -1,0 +1,31 @@
+.date {
+    vertical-align: 50%;
+    display: inline-block;
+    width: 47px;
+    background-color: $white;
+    text-align: center;
+    @include rounded-corners(3px);
+    border: 1px solid $grey;
+    padding: 1px;
+    
+    .day {
+        border-top: 8px solid $blue;
+        display: block;
+        font-weight: bold;
+        color: black;
+        font-size: 0.8em;
+    }
+
+    .month {
+        display: block;
+        color: black;
+        font-size: 0.7em;
+    }
+
+    .year {
+        display: block;
+        color: $grey;
+        font-size: 0.5em;
+    }
+
+}
